@@ -7,18 +7,9 @@ const UnsplashAPI = () => {
   return (
     <div>
       <Header />
-      <div className="p-10">
-        <h1 className="text-4xl mb-4">With the Unsplash API, you can:</h1>
-        <ul className='list-disc'>
-            <li>Search a photo by keyword.</li>
-            <li>Get a random photo.</li>
-            <li>List new photos.</li>
-        </ul>
-      </div>
-      <div className="p-10">
-
-        <h1 className="text-4xl mb-4">Searching for a Photo by Keyword</h1>
-        <p>Here's a step-by-step guide on how to search for a photo by keyword using the Unsplash API:</p><br></br>
+      <div className='p-10'>
+        <h1 className="text-4xl mb-4">How to Search for Photo by Keyword using the Unsplash API</h1>
+      
 
         <h2 className="text-2xl mb-1">Step 1: Sign Up for an Unsplash Developer Account</h2>
         <ul className='list-disc'>
@@ -40,7 +31,7 @@ const UnsplashAPI = () => {
         
         <h2 className="text-2xl mb-1">Step 4: Make the API Request</h2>
         <p>To make an API request to search for photos by keyword, you will need to use the following endpoint structure:</p><br></br>
-        <img src='./step4.png'class="w-112 h-auto"/><br></br>
+        <img src='./unsplash4.png'class="w-112 h-auto"/><br></br>
         <p><strong>Required Query Parameters:</strong></p>
         <ul className='list-disc'>
             <li>`query` : The search term (keyword) you want to use to find photos.</li><br></br>
@@ -55,11 +46,11 @@ const UnsplashAPI = () => {
 
         <h2 className="text-2xl mb-1">Step 5: Example Request</h2>
         <p>Here is an example of how to make a request to search for photos with the keyword “nature” using `curl`:</p><br></br>
-        <img src='./step5.png'class="w-112 h-auto"/><br></br>
+        <img src='./unsplash5.png'class="w-112 h-auto"/><br></br>
 
         <h2 className="text-2xl mb-1">Step 6: Parse the Response</h2>
         <p>The API response will be in JSON format and will contain information about the photos that match the search keyword. For example:</p><br></br>
-        <img src='./step6.png'class="w-112 h-auto"/><br></br>
+        <img src='./unsplash6.png'class="w-112 h-auto"/><br></br>
 
         <h2 className="text-2xl mb-1">Step 7: Using the Data</h2>
         <p>Extract the relevant information from the JSON response. For example, you can use the `urls` field to get different sizes of the photo.</p><br></br>
