@@ -17,7 +17,7 @@ const Home = () => {
       <Hero />
       <APIIntro 
         id="unsplash"
-        title=" Access beautiful photos with Unsplash API" 
+        title=" Discover how to search for photos with Unsplash API" 
       />
       <Unsplash />
       <APIIntro 

@@ -30,7 +30,7 @@ const UnsplashAPI = () => {
         <p>To search for a photo by keyword, you will use the ' /search/photos ' endpoint of the Unsplash API. The documentation for this endpoint can be found <a href='https://unsplash.com/documentation#search-photos'>here.</a></p><br></br>
         
         <h2 className="text-2xl mb-1">Step 4: Make the API Request</h2>
-        <p>To make an API request to search for photos by keyword, you will need to use the following endpoint structure:</p><br></br>
+        <p>To make an API request to search for photos by keyword, you will need to use an endpoint structure like the following example in SQL:</p><br></br>
         <img src='./unsplash4.png'class="w-112 h-auto"/><br></br>
         <p><strong>Required Query Parameters:</strong></p>
         <ul className='list-disc'>
