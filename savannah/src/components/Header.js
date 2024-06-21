@@ -11,11 +11,6 @@ const Header = () => {
             <li><h2><Link href="/">Home</Link></h2></li>
           </ul>
         </nav>
-        <div className="flex-1 flex justify-end">
-          <ul className="flex space-x-4 hover:text-lime-300">
-            <li><h2><Link href="/login">Login</Link></h2></li>
-          </ul>
-        </div>
       </div>
     </header>
   );
