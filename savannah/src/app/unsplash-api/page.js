@@ -2,8 +2,8 @@ import React from 'react';
 
 const UnsplashAPI = () => {
   return (
-    <div>
-      <h1>Unsplash API</h1>
+    <div className="p-10">
+      <h1 className="text-3xl mb-4">Unsplash API</h1>
       <p>Details about the Unsplash API.</p>
     </div>
   );
