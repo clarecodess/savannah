@@ -15,6 +15,7 @@ const Home = () => {
       
       <Header />
       <Hero />
+      
       <APIIntro 
         id="unsplash"
         title=" Discover how to search for photos with Unsplash API" 
@@ -23,7 +24,7 @@ const Home = () => {
       <APIIntro 
         id="rickandmorty"
         title="Discover the world of Rick & Morty through their API" 
-      />
+      /> 
       <Rick />
       <Footer />
     </div>

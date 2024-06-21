@@ -7,16 +7,17 @@ const Unsplash = () => {
   useEffect(() => {
     fetch('https://api.unsplash.com/photos?client_id=9gMyfQ5_9gZSTEDKrud01d0loCZowDij2e_iI--fjB4')
       .then(res => res.json())
-      .then(data => setPhotos(data));
+      .then(data => setPhotos(data.slice(0, 3)));
   }, []);
 
   return (
     <section className="p-4" id="unsplash">
       
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+      
         {photos.map(photo => (
           <div key={photo.id} className="rounded overflow-hidden shadow-lg">
-            <img src={photo.urls.small} alt={photo.description} />
+            <img src={photo.urls.small} alt={photo.description} className="w-full h-auto" />
           </div>
         ))}
       </div>
