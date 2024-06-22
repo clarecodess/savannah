@@ -31,7 +31,7 @@ const RickAndMortyAPI = () => {
 
         <div className="bg-white rounded-lg shadow-md p-6 mb-8">
           <h2 className="text-2xl font-semibold text-gray-700 mb-2">Step 4: Example Request</h2>
-          <p className="text-gray-600 mb-4">Here's how to make a request to get all episodes using <code className="bg-gray-200 rounded p-1 text-sm">curl</code>:</p>
+          <p className="text-gray-600 mb-4">Here is how to make a request to get all episodes using <code className="bg-gray-200 rounded p-1 text-sm">curl</code>:</p>
           <Image src="/rick4.png" alt="Curl request example" className="rounded" width={320} height={256} />
         </div>
 
