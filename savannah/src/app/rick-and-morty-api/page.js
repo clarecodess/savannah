@@ -61,7 +61,7 @@ const RickAndMortyAPI = () => {
         </p>
         <br />
 
-        <h1 className="text-4xl mb-4">Additional Resources</h1>
+        <h1 className="text-4xl mb-4">Additional Resources</h1> 
         <ul className="list-disc">
           <li>
             <a href='https://rickandmortyapi.com/documentation'>Rick and Morty API Documentation</a>
