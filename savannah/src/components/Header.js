@@ -3,12 +3,17 @@ import Link from 'next/link';
 
 const Header = () => {
   return (
-    <header className="bg-purple-800 text-white p-4">
+    <header className="bg-purple-800 text-white p-4 shadow-lg">
       <div className="container mx-auto flex items-center justify-between">
-        <h1 className="text-2xl flex-1">Unsplashed Ricky for Developers</h1>
-        <nav className="flex-1 flex justify-center">
-          <ul className="flex space-x-4 hover:text-lime-300">
-            <li><h2><Link href="/"><strong>HOME</strong></Link></h2></li>
+        <h1 className="text-2xl font-bold">Unsplashed Ricky for Developers</h1>
+        <nav className="flex space-x-8">
+          <ul className="flex space-x-4">
+            <li>
+              <Link href="/" className="hover:text-lime-300 transition-colors duration-300">
+                <strong>HOME</strong>
+              </Link>
+            </li>
+            {/* Add more nav links as needed */}
           </ul>
         </nav>
       </div>
