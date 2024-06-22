@@ -1,7 +1,6 @@
 import Head from "next/head";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
-import APIIntro from "@/components/APIIntro";
 import Footer from "@/components/Footer";
 import Rick from "@/components/Rick";
 import Unsplash from "@/components/Unsplash";

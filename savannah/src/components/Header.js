@@ -13,6 +13,11 @@ const Header = () => {
                 <strong>HOME</strong>
               </Link>
             </li>
+            <li>
+              <Link href="/api-use-cases" className="hover:text-lime-300 transition-colors duration-300">
+                <strong>API USES</strong>
+              </Link>
+            </li>
             {/* Add more nav links as needed */}
           </ul>
         </nav>
