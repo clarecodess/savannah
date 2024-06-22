@@ -8,7 +8,7 @@ const Unsplash = () => {
   useEffect(() => {
     fetch('https://api.unsplash.com/photos?client_id=9gMyfQ5_9gZSTEDKrud01d0loCZowDij2e_iI--fjB4')
       .then(res => res.json())
-      .then(data => setPhotos(data.slice(0, 6)));
+      .then(data => setPhotos(data.slice(0, 4)));
   }, []);
 
   return (
