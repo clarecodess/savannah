@@ -7,7 +7,7 @@ const Rick = () => {
   useEffect(() => {
     fetch('https://rickandmortyapi.com/api/character')
       .then(res => res.json())
-      .then(data => setCharacters(data.results.slice(0, 6))); // Displaying more characters
+      .then(data => setCharacters(data.results.slice(0, 4))); // Displaying more characters
   }, []);
 
   return (
