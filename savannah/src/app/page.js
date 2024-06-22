@@ -8,24 +8,39 @@ import Unsplash from "@/components/Unsplash";
 
 const Home = () => {
   return (
-    <div>
+    <div className="min-h-screen bg-gray-100 flex flex-col">
       <Head>
         <title>API Documentation</title>
+        <meta name="description" content="Explore and use the Unsplash and Rick & Morty APIs for your projects." />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
       
       <Header />
-      <Hero />
       
-      <APIIntro 
-        id="unsplash"
-        title=" Discover how to search for photos with Unsplash API" 
-      />
-      <Unsplash />
-      <APIIntro 
-        id="rickandmorty"
-        title="Discover the world of Rick & Morty through their API" 
-      /> 
-      <Rick />
+      <main className="flex-grow">
+        <Hero />
+        
+        <section className="py-16 bg-white">
+          <div className="container mx-auto px-4">
+            <APIIntro 
+              id="unsplash"
+              title=" Discover how to search for photos with Unsplash API" 
+            />
+            <Unsplash />
+          </div>
+        </section>
+
+        <section className="py-16 bg-gray-50">
+          <div className="container mx-auto px-4">
+            <APIIntro 
+              id="rickandmorty"
+              title="Discover the world of Rick & Morty through their API" 
+            /> 
+            <Rick />
+          </div>
+        </section>
+      </main>
+      
       <Footer />
     </div>
   );
