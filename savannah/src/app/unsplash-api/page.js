@@ -46,7 +46,7 @@ const UnsplashAPI = () => {
           <ul className='list-disc list-inside text-gray-600'>
             <li><code className="bg-gray-200 rounded p-1 text-sm">page</code>: The page number to retrieve (default is 1).</li>
             <li><code className="bg-gray-200 rounded p-1 text-sm">per_page</code>: The number of items per page (default is 10).</li>
-            <li><code className="bg-gray-200 rounded p-1 text-sm">orientation</code>: Filter by photo orientation. Valid values are 'landscape', 'portrait', or 'squarish'.</li>
+            <li><code className="bg-gray-200 rounded p-1 text-sm">orientation</code>: Filter by photo orientation. Valid values are &apos;landscape&apos;, &apos;portrait&apos;, or &apos;squarish&apos;.</li>
           </ul>
         </div>
 
