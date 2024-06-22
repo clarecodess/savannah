@@ -1,5 +1,6 @@
 "use client";
 import React, { useEffect, useState } from 'react';
+import Image from 'next/image';
 
 const Rick = () => {
   const [characters, setCharacters] = useState([]);
@@ -20,7 +21,8 @@ const Rick = () => {
               key={character.id}
               className="bg-white rounded-lg overflow-hidden shadow-lg transform transition duration-300 hover:scale-105"
             >
-              <img src={character.image} alt={character.name} className="w-full h-56 object-cover"/>
+              <Image src={character.image} alt={character.name} className="w-full h-56 object-cover" width={500} 
+                height={500}/>
               <div className="p-4">
                 <h3 className="text-lg font-semibold text-purple-700 mb-2">{character.name}</h3>
                 <p className="text-gray-700">{character.species}</p>
