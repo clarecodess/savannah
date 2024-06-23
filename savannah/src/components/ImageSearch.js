@@ -41,7 +41,7 @@ const ImageSearch = () => {
                 href={photo.links.download}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-purple-700 underline"
+                className="bg-purple-800 text-white py-2 px-4 rounded-full inline-block hover:bg-purple-600 transition duration-200"
               >
                 Download
               </a>
