@@ -12,7 +12,7 @@ This is Unsplashed Ricky for Developers, a web app that provides API examples fo
 - [License](#license)
 
 ## Demo
-Check out the live demo of the application [here](https://savannah-px5arob5x-clare-codes-projects.vercel.app/).
+Check out the live demo of the application [here](https://savannah-o7a7lap0f-clare-codes-projects.vercel.app/).
 
 ## Features
 - Fetch and display random photos from the Unsplash API.
