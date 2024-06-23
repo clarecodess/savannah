@@ -57,8 +57,37 @@ npm run dev
 - Hero: Introduction to the application.
 - APIIntro: Section introducing the APIs with navigation.
 - Unsplash: Section featuring Unsplash photos.
+- Image Search: Section featuring image search use case (details below)
+- Character Search: Section featuring character search and details use case (details below)
 - Rick: Section introducing Rick and Morty characters.
 - Footer: Footer with social media links.
+
+
+#### Image Search Component
+
+The Image Search Component allows users to search for and download high-quality images from Unsplash for use in blog posts, articles, and marketing materials.
+
+##### Features
+- Input field for entering search queries.
+- Search button to initiate the search.
+- Display of search results with images.
+- Download button for each image to download the image.
+
+##### Example Use Case
+A blog integrates the Image Search Component, enabling users to easily find and use images in their blog posts. This feature enhances the visual appeal of the blog posts and increases user engagement.
+
+#### Character Search Component
+
+The Character Search Component allows users to search for and view details about characters from the Rick and Morty TV show.
+
+##### Features
+- Input field for entering character names.
+- Search button to initiate the search.
+- Display of search results with character names and images.
+- Clicking on a character shows additional details about the character.
+
+##### Example Use Case
+Integrating the Character Search Component, allows fans to explore information about their favorite characters, view episode appearances, and share information with other fans.
 
 ### Navigation
 The application uses Next.js routing to navigate between different pages. Example use in a component:
