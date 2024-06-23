@@ -35,6 +35,9 @@ const APIUseCases = () => {
                     className="rounded-lg"
                   />
                 </div>
+                <p className="text-center mt-4">For developer documentation, visit the <a href="https://unsplash.com/developers" className="text-purple-700 underline">Unsplash API Developer Portal</a>.</p>
+                <h3 className="text-lg font-semibold text-purple-700 mb-2">Case Study: Image Search for Blog Posts</h3>
+                <p className="text-gray-700 mb-4">As shown on the <a href='/' className="text-purple-700 underline">home page</a>, a platform can be integrated with the Unsplash API to allow users to search for and use high-quality images in their blog posts. This feature can increase user engagement and improve the visual appeal of the blog posts.</p>
               </div>
 
               <div className="bg-white p-6 rounded-lg shadow-md">
@@ -54,6 +57,9 @@ const APIUseCases = () => {
                     className="rounded-lg"
                   />
                 </div>
+                <p className="text-center mt-4">For developer documentation, visit <a href="https://rickandmortyapi.com/documentation" className="text-purple-700 underline"> Rick and Morty.</a>.</p>
+                <h3 className="text-lg font-semibold text-purple-700 mb-2">Case Study: Character Search</h3>
+                <p className="text-gray-700 mb-4">As shown on the <a href='/' className="text-purple-700 underline">home page</a>, you can use the API to create a searchable database of characters. Users could learn more about their favorite characters, view episode appearances, and share information with other fans.</p>
               </div>
             </div>
           </div>
