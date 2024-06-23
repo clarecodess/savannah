@@ -21,6 +21,7 @@ const CharacterSearch = () => {
 
   return (
     <div className="p-4">
+        <h1 className="text-2xl font-bold">Search and view details to learn more about your favorite characters</h1>
       <form onSubmit={searchCharacters} className="mb-4">
         <input
           type="text"
