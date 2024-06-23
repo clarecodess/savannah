@@ -57,7 +57,7 @@ const APIUseCases = () => {
                     className="rounded-lg"
                   />
                 </div>
-                <p className="text-center mt-4">For developer documentation, visit <a href="https://rickandmortyapi.com/documentation" className="text-purple-700 underline"> Rick and Morty.</a>.</p>
+                <p className="text-center mt-4">For developer documentation, visit <a href="https://rickandmortyapi.com/documentation" className="text-purple-700 underline"> Rick and Morty</a>.</p>
                 <h3 className="text-lg font-semibold text-purple-700 mb-2">Case Study: Character Search</h3>
                 <p className="text-gray-700 mb-4">As shown on the <a href='/' className="text-purple-700 underline">home page</a>, you can use the API to create a searchable database of characters. Users could learn more about their favorite characters, view episode appearances, and share information with other fans.</p>
               </div>
