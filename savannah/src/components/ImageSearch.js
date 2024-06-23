@@ -15,10 +15,11 @@ const ImageSearch = () => {
 
   return (
     <div className="p-4">
+        <h1 className="text-2xl font-bold">Search and download for images to use in blog posts, articles, and marketing materials</h1>
       <form onSubmit={searchPhotos} className="mb-4">
         <input
           type="text"
-          placeholder="Search for images..."
+          placeholder="Search term..."
           value={query}
           onChange={(e) => setQuery(e.target.value)}
           className="p-2 border rounded mr-2"
