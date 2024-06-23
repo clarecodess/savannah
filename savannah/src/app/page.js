@@ -5,6 +5,7 @@ import Footer from "@/components/Footer";
 import Rick from "@/components/Rick";
 import Unsplash from "@/components/Unsplash";
 import ImageSearch from "@/components/ImageSearch";
+import CharacterSearch from "@/components/CharacterSearch";
 
 const Home = () => {
   return (
@@ -29,7 +30,7 @@ const Home = () => {
 
         <section className="py-16 bg-gray-50">
           <div className="container mx-auto px-4">
-            
+            <CharacterSearch />
             <Rick />
           </div>
         </section>
